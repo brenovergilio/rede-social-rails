@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html style="height: 100%;">
+<html style="height:100%;">
   <head>
-    <title>RedeSocialRails</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>SocialNetworking</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,7 +9,7 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body style="height: 100%;">
+  <body style="height:100%;">
     <%= content_for?(:content) ? yield(:content) : yield %>
   </body>
 </html>
