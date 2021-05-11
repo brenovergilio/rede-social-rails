@@ -6,5 +6,6 @@ class User < ApplicationRecord
 
   validates :phone, :name, :avatar, presence: true
 
+  has_many :posts
   has_one_attached :avatar
 end
