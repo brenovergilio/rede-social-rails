@@ -8,7 +8,6 @@ class User::CommentsController < UserController
       if @comment.save
         respond_to do |format|
           format.js { render "create" }
-          format.html { redirect_to user_profile_path }
         end
       end
     end
@@ -19,7 +18,6 @@ class User::CommentsController < UserController
 
       if @comment.destroy
         respond_to do |format|
-          
           format.js { render "destroy" }
         end
       end
