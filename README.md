@@ -7,7 +7,7 @@ Projeto da Digital Innovation One para a criação de uma rede social do zero ut
 ## Imagens
 
 ![perfil](./screenshots/meuperfil.png)
-![registro](./screenshots/singnup.png)
+![registro](./screenshots/singup.png)
 ![seguir](./screenshots/quempossoseguir.png)
 ![timeline](./screenshots/timeline.png)
 ![admin](./screenshots/admins.png)
